@@ -1,0 +1,9 @@
+.tableData{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://t3.ftcdn.net/jpg/05/63/93/62/360_F_563936245_icXLZU3nGWp1R2iFp8BsnhWr1MZaefgR.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,181 @@
+.userInfo {
+  width: 100%;
+  height: 120vh;
+  display: flex;
+  justify-content: center;
+}
+
+.userDetails {
+  width: 60%;
+  background-color: #f1f1f1;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  margin: 20px;
+}
+
+.userDetails > h4 {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.logo_photo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 20%;
+}
+
+.logo_photo > img {
+  margin-left: 20px;
+}
+
+.logo_photo > span {
+  border: 1px solid black;
+  margin-right: 20px;
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.logo_photo > span > img {
+  width: 100%;
+  height: 100%;
+}
+
+.logo_photo > span > input {
+  width: 10%;
+  opacity: 0;
+  /* Hides the default file input */
+  position: absolute;
+  /* Removes any layout impact */
+  cursor: pointer;
+}
+
+.logo_photo > span > p {
+  margin: 0;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+ .userInput {
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  background-color: inherit;
+  margin-left: 10px;
+}
+
+.userInputFields {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.application_details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.academic_qualification {
+  width: 100%;
+  height: 210vh;
+  display: flex;
+  justify-content: center;
+}
+.academic_details {
+  width: 60%;
+  background-color: #f1f1f1;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  margin: 20px;
+}
+.school_type{
+  font-size: 12px;
+}
+.tableInputs {
+  height: 80px;
+  border: none;
+  outline: none;
+}
+.tableInputs2{
+  height:20px;
+  border: none;
+  outline: none;
+}
+.work_experience{
+  width: 100%;
+  height: 120vh;
+  display: flex;
+  justify-content: center;
+}
+.emp_experience{
+  width: 60%;
+  background-color: #f1f1f1;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  margin: 20px;
+}
+.questionnaire{
+  width: 100%;
+  height: 120vh;
+  display: flex;
+  justify-content: center;
+}
+.questions{
+  width: 60%;
+  background-color: #f1f1f1;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  margin: 20px;
+}
+.sizeOfHead{
+  font-size: 15px;
+  font-weight: 300;
+}
+.buttons{
+  width: 100%;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 560px) {
+  .userDetails {
+    width: 90%;
+    margin: 10px;
+  }
+
+  .userDetails > h4 {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  .logo_photo {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+
+  .logo_photo > img {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .logo_photo > span {
+    width: 70%;
+    margin-right: 0;
+  }
+
+  .userInputFields {
+    flex-direction: column;
+  }
+
+  .application_details {
+    flex-direction: column;
+  }
+}
